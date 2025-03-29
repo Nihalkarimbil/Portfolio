@@ -103,50 +103,35 @@ const experiences = [
 	}
 ]
 
-
 const testimonials = [
-	{
-		id: 1,
-		testimonial:
-			"Behance is a social media platform owned by Adobe whose main focus is to showcase and discover creative work.",
-		name: "Om Patel",
-		image: "/socialmedia/behance.svg",
-		link: "https://www.behance.net/omthecreator",
-	},
+	
 	{
 		id: 2,
 		testimonial:
 			"LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
-		name: "Om Patel",
+		name: "Nihal Karimbil",
 		image: "/socialmedia/linkedin.svg",
-		link: "https://www.linkedin.com/in/om-patel-401068143/",
+		link: "https://www.linkedin.com/in/nihal-karimbil/",
+	},
+	
+
+	{
+		id: 5,
+		testimonial:
+			"Check out my Github Profile where I have shared all my codes from basic to advanced.",
+		name: "Nihalkarimbil",
+		image: "/tech/github.webp",
+		link: "https://github.com/Nihalkarimbil",
 	},
 	{
 		id: 3,
 		testimonial:
-			"Dribbble is a self-promotion and social networking platform for digital designers and creatives. It serves as a design portfolio.",
-		name: "Om Patel",
-		image: "/socialmedia/dribble.svg",
-		link: "https://dribbble.com/om2121",
-	},
-	{
-		id: 4,
-		testimonial:
-			"Also do check out my UI/UX Portfolio where I have shared by design studies.",
-		name: "Om Patel",
-		image: "/socialmedia/portfolio.svg",
-		link: "https://omthecreator.netlify.app/",
-	},
-	{
-		id: 5,
-		testimonial:
-			"Also do check out my Github Profile where I have shared all my codes from basic to advanced.",
-		name: "Om Patel",
-		image: "/tech/github.webp",
-		link: "https://github.com/omunite215",
+			"instagram is a social media platform for sharing photos and videos. connect with me !",
+		name: "niha.l._",
+		image: "/socialmedia/instagram.svg",
+		link: "https://www.instagram.com/niha.l._/",
 	},
 ];
-
 
 const projects :{
 	name: string;
@@ -178,30 +163,26 @@ const projects :{
 				color: "orange-text-gradient",
 			},
 			{
-				name: "MongoDB",
-				color: "green-text-gradient",
-			},
-			{
-				name: "Express",
+				name: "MERN",
 				color: "pink-text-gradient",
 			},
 		],
-		image: "/projectimg/avm.webp",
+		image: "/projectimg/vitalaid.png",
 		platform: "Next",
-		source_code_link: "https://github.com/omunite215/Project_Metaverse",
-		deploy_link: "https://avmauto.in/",
+		source_code_link: "https://github.com/Vital-Aid/",
+		deploy_link: "https://vitalaid-snr.vercel.app/",
 	},
 	{
-		name: "MERN Dashboard",
+		name: "ownbnb",
 		description:
-			" Designed and developed a visually appealing and user-friendly Data Analytics Dashboard using MERN",
+			"An MERN stack Airbnb clone Application with a responsive design and a user-friendly interface.",
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "materialui",
+				name: "Node",
 				color: "orange-text-gradient",
 			},
 			{
@@ -213,33 +194,37 @@ const projects :{
 				color: "pink-text-gradient",
 			},
 		],
-		image: "/projectimg/mern.png",
-		source_code_link: "https://github.com/omunite215/Project_MERN-Dashboard",
-		platform: "Web",
-		deploy_link: "https://admin-frontend-r705.onrender.com/",
+		image: "/projectimg/ownbnb.png",
+		source_code_link: "https://github.com/Nihalkarimbil/ownBnB",
+		platform: "React",
+		deploy_link: "https://own-bnb.vercel.app/",
 	},
 	{
-		name: "Metaverse Web 3.0",
+		name: "Furnitales",
 		description:
-			"A Modern UI/UX Landing Page using Framer Motion and TailwindCSS with a feel and looks of Web 3.0",
+			"An E-commerce website for furniture and home decor products, built with MERN Stack and Tailwind CSS.",
 		tags: [
 			{
 				name: "react",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "Node",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "tailwind",
-				color: "green-text-gradient",
+				name: "MongoDB",
+				color: "pink-text-gradient",
 			},
 			{
-				name: "framer-motion",
-				color: "orange-text-gradient",
+				name: "Express",
+				color: "green-text-gradient",
 			},
 		],
-		image: "/projectimg/metaverse.png",
-		source_code_link: "https://github.com/omunite215/Project_Metaverse",
-		platform: "Vercel",
-		deploy_link: "https://project-metaverse-beta.vercel.app/",
+		image: "/projectimg/furnitales.png",
+		source_code_link: "https://github.com/Nihalkarimbil/furnitale-app",
+		platform: "Web",
+		deploy_link: "https://furnitales.vercel.app/",
 	},
 
 ];
