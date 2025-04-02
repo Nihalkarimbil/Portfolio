@@ -8,6 +8,7 @@ import {
 	Works,
 	StarsCanvas,
 } from "./components";
+import Footer from "./components/Footer";
 import Technologies from "./components/Technologies";
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
 				<Contact />
 				<StarsCanvas />
 			</div>
+			<Footer />
 		</div>
 	);
 }
