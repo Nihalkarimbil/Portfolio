@@ -30,7 +30,7 @@ const Contact = () => {
 		emailjs
 			.send(
 				"service_bdaqpmv",
-				"template_k18u4tn",
+				"template_ox2yi5w",
 				{
 					from_name: form.name,
 					to_name: "Nihal",
@@ -43,7 +43,7 @@ const Contact = () => {
 			.then(() => {
 				setLoading(false);
 				alert(
-					"A humble thanks for reaching me out. I will respond to you as soon as possible.",
+					"Thanks for reaching me out. I will respond to you as soon as possible.",
 				);
 				setForm({
 					name: "",
