@@ -4,7 +4,6 @@ import { SectionWrapper } from "./HigherOrderComponents";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Tilt } from "react-tilt";
-import { services } from "../constants";
 import { fadeIn, textVariant } from "@/app/utils/motion";
 
 type ServiceCardProps = {
@@ -55,11 +54,7 @@ const About = () => {
 				className="mt-4 text-secondary text-[17px] max-w-[3xl] leading-[30px]"
 			>I am a dedicated and self-taught MERN stack developer with a strong foundation in building dynamic, responsive web applications. Proficient in Next.js, React, Redux, TypeScript, Node.js, Express, and MongoDB, I have hands-on experience implementing scalable full-stack solutions. Passionate about problem-solving, performance optimization, and writing clean, maintainable code, I strive to deliver seamless user experiences with modern web technologies.
 			</motion.p>
-			<div className="mt-20 flex flex-wrap gap-10">
-				{services.map((service, index) => (
-					<ServiceCard key={service.title} index={index} {...service} />
-				))}
-			</div>
+			
 		</>
 	);
 };

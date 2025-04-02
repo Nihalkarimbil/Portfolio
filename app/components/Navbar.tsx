@@ -33,7 +33,7 @@ const Navbar = () => {
 			}`}
 		>
 			<div className="w-full flex justify-between items-center max-w-7xl mx-auto">
-				{/* biome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
+				
 				<div
 					className="flex items-center gap-2"
 					onClick={() => {
@@ -41,11 +41,12 @@ const Navbar = () => {
 						window.scrollTo(0, 0);
 					}}
 				>
-					<Link href="https://github.com/omunite215">
+					<Link href="https://github.com/Nihalkarimbil">
 						<Image
-							src="/logo.png"
-							width={80}
-							height={80}
+							src="/favicon.svg"
+							
+							width={40}
+							height={40}
 							alt="logo"
 							priority
 							className="object-contain"
@@ -58,7 +59,6 @@ const Navbar = () => {
 
 				<ul className="list-none hidden sm:flex flex-row gap-10">
 					{navLinks.map((nav) => (
-						// biome-ignore lint/a11y/useKeyWithClickEvents: <explanation>
 						<li
 							key={nav.id}
 							className={`${
@@ -91,7 +91,6 @@ const Navbar = () => {
 					>
 						<ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
 							{navLinks.map((nav) => (
-								// biome-ignore lint/a11y/useKeyWithClickEvents: <explanation>
 								<li
 									key={nav.id}
 									className={`font-poppins font-medium cursor-pointer text-[16px] ${

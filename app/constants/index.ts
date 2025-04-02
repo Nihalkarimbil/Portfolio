@@ -4,8 +4,13 @@ export const navLinks = [
 		title: "About",
 	},
 	{
-		id: "work",
-		title: "Work",
+		id: "skills",
+		title: "skills",
+	},
+	
+	{
+		id: "projects",
+		title: "Projects",
 	},
 	{
 		id: "contact",
@@ -13,79 +18,9 @@ export const navLinks = [
 	},
 ];
 
-const services = [
-	{
-		title: "UI/UX Designer",
-		icon: "/backend.webp",
-	},
-	{
-		title: "Full Stack Web Developer",
-		icon: "/web.webp",
-	},
-	{
-		title: "App Developer",
-		icon: "/mobile.webp",
-	},
-	{
-		title: "Software Engineer",
-		icon: "/creator.webp",
-	},
-];
 
-const technologies = [
-	{
-		name: "HTML 5",
-		icon: "/tech/html.webp",
-	},
-	{
-		name: "CSS 3",
-		icon: "/tech/css.webp",
-	},
-	{
-		name: "JavaScript",
-		icon: "/tech/javascript.webp",
-	},
-	{
-		name: "TypeScript",
-		icon: "/tech/typescript.webp",
-	},
-	{
-		name: "React JS",
-		icon: "/tech/reactjs.webp",
-	},
-	{
-		name: "Next.JS",
-		icon: "/tech/nextjs.svg",
-	},
-	{
-		name: "Redux Toolkit",
-		icon: "/tech/redux.webp",
-	},
-	{
-		name: "Tailwind CSS",
-		icon: "/tech/tailwind.webp",
-	},
-	{
-		name: "Material UI",
-		icon: "/tech/MUI.png",
-	},
-	{
-		name: "git",
-		icon: "/tech/git.webp",
-	},
-	{
-		name: "mongoDB",
-		icon: "/tech/MongoDB.png",
-	},
-	{
-		name: "Express JS",
-		icon: "/tech/expressjs.png",
-	},
-	{
-		name: "Node JS",
-		icon: "/tech/nodejs.png",
-	},
-];
+
+
 
 const experiences = [
 	{
@@ -128,10 +63,12 @@ const testimonials = [
 		testimonial:
 			"instagram is a social media platform for sharing photos and videos. connect with me !",
 		name: "niha.l._",
-		image: "/socialmedia/instagram.svg",
+		image: "/socialmedia/instagram1.svg",
 		link: "https://www.instagram.com/niha.l._/",
 	},
+
 ];
+
 
 const projects :{
 	name: string;
@@ -229,4 +166,4 @@ const projects :{
 
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, testimonials, projects };

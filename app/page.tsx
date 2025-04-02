@@ -5,10 +5,10 @@ import {
 	Feedbacks,
 	Hero,
 	Navbar,
-	Tech,
 	Works,
 	StarsCanvas,
 } from "./components";
+import Technologies from "./components/Technologies";
 
 export default function Home() {
 	return (
@@ -19,8 +19,8 @@ export default function Home() {
 			</div>
 			<About />
 			<Experience />
-			<Tech />
 			<Works />
+			<Technologies/>
 			<Feedbacks />
 			<div className="relative z-0">
 				<Contact />
