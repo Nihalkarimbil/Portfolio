@@ -1,11 +1,27 @@
 "use client"
 
 import React from 'react';
-import { 
-  SiNextdotjs, SiReact, SiRedux, SiTailwindcss, SiMui, SiBootstrap, SiCss3,
-  SiExpress, SiNodedotjs, SiMongodb, SiHtml5, SiJavascript, 
-  SiTypescript, SiGithub, SiPostman, SiTrello, SiNotion
-} from 'react-icons/si';
+import {
+  SiNextdotjs,
+  SiReact,
+  SiRedux,
+  SiTailwindcss,
+  SiMui,
+  SiBootstrap,
+  SiCss3,
+  SiExpress,
+  SiNodedotjs,
+  SiMongodb,
+  SiHtml5,
+  SiJavascript,
+  SiTypescript,
+  SiGithub,
+  SiPostman,
+  SiTrello,
+  SiNotion,
+  SiPostgresql,
+  SiPrisma,
+} from "react-icons/si";
 import { TbApi } from 'react-icons/tb';
 import { SectionWrapper } from './HigherOrderComponents';
 
@@ -38,6 +54,8 @@ const Technologies = () => {
               <SiNodedotjs className="text-4xl text-secondary" />
               <SiMongodb className="text-4xl text-secondary" />
               <TbApi className="text-4xl text-secondary" />
+              <SiPostgresql className="text-4xl text-secondary"/>
+              <SiPrisma className="text-4xl text-secondary"/>
             </div>
           </div>
           
