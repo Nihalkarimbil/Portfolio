@@ -52,7 +52,7 @@ const About = () => {
 			<motion.p
 				variants={fadeIn("", "", 0.1, 1)}
 				className="mt-4 text-secondary text-[17px] max-w-[3xl] leading-[30px]"
-			>I am a dedicated and self-taught MERN stack developer with a strong foundation in building dynamic, responsive web applications. Proficient in Next.js, React, Redux, TypeScript, Node.js, Express, and MongoDB, I have hands-on experience implementing scalable full-stack solutions. Passionate about problem-solving, performance optimization, and writing clean, maintainable code, I strive to deliver seamless user experiences with modern web technologies.
+			>I am a dedicated and self-taught MERN stack developer with a strong foundation in building dynamic, responsive web applications. Proficient in Next.js, React, Redux, TypeScript, Node.js, Express, MongoDB,PostgreSQL I have hands-on experience implementing scalable full-stack solutions. Passionate about problem-solving, performance optimization, and writing clean, maintainable code, I strive to deliver seamless user experiences with modern web technologies.
 			</motion.p>
 			
 		</>
