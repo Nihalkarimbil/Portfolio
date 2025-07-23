@@ -23,20 +23,33 @@ export const navLinks = [
 
 
 const experiences = [
-	{
-		title: "MERN Stack Developer Intern",
-		company_name: "Bridgeon Solutions",
-		icon: "/company/bridgeon.png",
-		iconBg: "#383E56",
-		date: "2024 -  2025",
-		points: [
-			"Designed and developed responsive, user-friendly web applications using the MERN Stack",
-			"Built and optimized scalable RESTful APIs with Express.js and Node.js ,ensuring high performance and efficiency",
-			"Implemented Git for version control, collaborated on code reviews, and maintained high-quality coding standards",
-			"Actively participated in team discussions and scrum meetings, staying updated with industry trends and best practices",
-		]
-	}
-]
+  {
+    title: "MERN Stack Developer Intern",
+    company_name: "Bridgeon Solutions",
+    icon: "/company/bridgeon.png",
+    iconBg: "#383E56",
+    date: "2024 -  2025",
+    points: [
+      "Designed and developed responsive, user-friendly web applications using the MERN Stack",
+      "Built and optimized scalable RESTful APIs with Express.js and Node.js ,ensuring high performance and efficiency",
+      "Implemented Git for version control, collaborated on code reviews, and maintained high-quality coding standards",
+      "Actively participated in team discussions and scrum meetings, staying updated with industry trends and best practices",
+    ],
+  },
+  {
+    title: "Front-end Developer",
+    company_name: "NexCrest IT Kannur",
+    icon: "/company/nexcrest-icon-1.png",
+    iconBg: "#383E56",
+    date: "2025 Jul -  present",
+    points: [
+      "Working as a frontend Developer at Nexcrest IT",
+      "Familiar with Team collaboration and real world projects",
+      "Collaborated with backend Developers and QA teams Under DevOps Team",
+      "Actively participated in team discussions",
+    ],
+  },
+];
 
 const testimonials = [
 	
