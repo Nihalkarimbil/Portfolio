@@ -24,6 +24,19 @@ export const navLinks = [
 
 const experiences = [
   {
+    title: "Front-end Developer",
+    company_name: "NexCrest IT Kannur",
+    icon: "/company/nexcrest.webp",
+    iconBg: "#383E56",
+    date: "2025 Jul -  present",
+    points: [
+      "Working as a frontend Developer at Nexcrest IT",
+      "Familiar with Team collaboration and real world projects",
+      "Collaborated with backend Developers and QA teams Under DevOps Team",
+      "Actively participated in team discussions",
+    ],
+  },
+  {
     title: "MERN Stack Developer Intern",
     company_name: "Bridgeon Solutions",
     icon: "/company/bridgeon.png",
@@ -36,50 +49,34 @@ const experiences = [
       "Actively participated in team discussions and scrum meetings, staying updated with industry trends and best practices",
     ],
   },
-  {
-    title: "Front-end Developer",
-    company_name: "NexCrest IT Kannur",
-    icon: "/company/nexcrest-icon-1.png",
-    iconBg: "#383E56",
-    date: "2025 Jul -  present",
-    points: [
-      "Working as a frontend Developer at Nexcrest IT",
-      "Familiar with Team collaboration and real world projects",
-      "Collaborated with backend Developers and QA teams Under DevOps Team",
-      "Actively participated in team discussions",
-    ],
-  },
 ];
 
 const testimonials = [
-	
-	{
-		id: 2,
-		testimonial:
-			"LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
-		name: "Nihal Karimbil",
-		image: "/socialmedia/linkedin.svg",
-		link: "https://www.linkedin.com/in/nihal-karimbil/",
-	},
-	
+  {
+    id: 2,
+    testimonial:
+      "LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
+    name: "Muhammed Nihal K",
+    image: "/socialmedia/linkedin.svg",
+    link: "https://www.linkedin.com/in/nihal-karimbil/",
+  },
 
-	{
-		id: 5,
-		testimonial:
-			"Check out my Github Profile where I have shared all my codes from basic to advanced.",
-		name: "Nihalkarimbil",
-		image: "/tech/github.webp",
-		link: "https://github.com/Nihalkarimbil",
-	},
-	{
-		id: 3,
-		testimonial:
-			"instagram is a social media platform for sharing photos and videos. connect with me !",
-		name: "niha.l._",
-		image: "/socialmedia/instagram1.svg",
-		link: "https://www.instagram.com/niha.l._/",
-	},
-
+  {
+    id: 5,
+    testimonial:
+      "Check out my Github Profile where I have shared all my codes from basic to advanced.",
+    name: "Nihalkarimbil",
+    image: "/tech/github.webp",
+    link: "https://github.com/Nihalkarimbil",
+  },
+  {
+    id: 3,
+    testimonial:
+      "instagram is a social media platform for sharing photos and videos. connect with me !",
+    name: "i.amnihall",
+    image: "/socialmedia/instagram1.svg",
+    link: "https://www.instagram.com/i.amnihall/",
+  },
 ];
 
 
