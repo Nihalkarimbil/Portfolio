@@ -43,7 +43,7 @@ const Navbar = () => {
 				>
 					<Link href="https://github.com/Nihalkarimbil">
 						<Image
-							src="/favicon.svg"
+							src="/favicon.ico"
 							
 							width={40}
 							height={40}
