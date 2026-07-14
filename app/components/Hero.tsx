@@ -27,7 +27,7 @@ const Hero = () => {
         <div className="flex-1 flex justify-center items-center mt-0 md:mt-0">           
           <div className="relative w-60 h-60 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-80 lg:h-80">             
             <Image               
-              src="/image.jpg"               
+              src="/proIMg.jpeg"               
               alt="Developer portrait"               
               fill
               priority

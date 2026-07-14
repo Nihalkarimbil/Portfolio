@@ -7,6 +7,9 @@ import Experience from './Experience';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
+import SplashCursor from './SplashCursor';
+import VariableProximity from './VariableProximity';
+import GooeyNav from './GooeyNav';
 
 export {
   Hero,
@@ -17,8 +20,11 @@ export {
   Works,
   Feedbacks,
   Contact,
-  EarthCanvas, 
-  BallCanvas, 
-  ComputersCanvas, 
-  StarsCanvas
+  EarthCanvas,
+  BallCanvas,
+  ComputersCanvas,
+  StarsCanvas,
+  SplashCursor,
+  VariableProximity,
+  GooeyNav
 }

@@ -25,7 +25,7 @@ export const navLinks = [
 const experiences = [
   {
     title: "Front-end Developer",
-    company_name: "NexCrest IT Kannur",
+    company_name: "NexCrest IT, Athanikal-Calicut",
     icon: "/company/nexcrest.webp",
     iconBg: "#383E56",
     date: "2025 Jul -  present",

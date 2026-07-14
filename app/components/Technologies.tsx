@@ -21,9 +21,15 @@ import {
   SiNotion,
   SiPostgresql,
   SiPrisma,
+  SiJenkins,
+  SiJira,
+  SiNestjs,
+  SiAntdesign,
 } from "react-icons/si";
 import { TbApi } from 'react-icons/tb';
 import { SectionWrapper } from './HigherOrderComponents';
+import { GrGraphQl } from 'react-icons/gr';
+import { DiJenkins } from 'react-icons/di';
 
 const Technologies = () => {
   return (
@@ -43,6 +49,7 @@ const Technologies = () => {
               <SiTailwindcss className="text-4xl text-secondary" />
               <SiMui className="text-4xl text-secondary" />
               <SiBootstrap className="text-4xl text-secondary" />
+              <SiAntdesign className="text-4xl text-secondary" />
               <SiCss3 className="text-4xl text-secondary" />
             </div>
           </div>
@@ -52,10 +59,12 @@ const Technologies = () => {
             <div className="grid grid-cols-3 gap-4 mb-4">
               <SiExpress className="text-4xl text-secondary" />
               <SiNodedotjs className="text-4xl text-secondary" />
+              <SiNestjs className="text-4xl text-secondary" />
               <SiMongodb className="text-4xl text-secondary" />
               <TbApi className="text-4xl text-secondary" />
               <SiPostgresql className="text-4xl text-secondary"/>
               <SiPrisma className="text-4xl text-secondary"/>
+              <GrGraphQl className="text-4xl text-secondary"/>
             </div>
           </div>
           
@@ -76,6 +85,8 @@ const Technologies = () => {
               <SiPostman className="text-4xl text-secondary" />
               <SiTrello className="text-4xl text-secondary" />
               <SiNotion className="text-4xl text-secondary" />
+              <SiJira className="text-4xl text-secondary" />
+              <SiJenkins className="text-4xl text-secondary" />
             </div>
           </div>
         </div>
