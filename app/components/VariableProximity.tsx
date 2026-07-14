@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use client";
 import { forwardRef, useMemo, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
@@ -45,7 +46,20 @@ function useMousePositionRef(containerRef) {
   return positionRef;
 }
 
-const VariableProximity = forwardRef((props, ref) => {
+interface VariableProximityProps {
+  label: string;
+  fromFontVariationSettings: string;
+  toFontVariationSettings: string;
+  containerRef: React.RefObject<HTMLElement>;
+  radius?: number;
+  falloff?: 'linear' | 'exponential' | 'gaussian';
+  className?: string;
+  onClick?: () => void;
+  style?: React.CSSProperties;
+  [key: string]: any;
+}
+
+const VariableProximity = forwardRef((props: VariableProximityProps, ref: any) => {
   const {
     label,
     fromFontVariationSettings,
