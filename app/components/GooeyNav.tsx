@@ -11,8 +11,8 @@ interface GooeyNavProps {
   particleR?: number;
   timeVariance?: number;
   colors?: number[];
-  initialActiveIndex?: number;
   onItemClick?: (item: any, index: number) => void;
+  vertical?: boolean;
 }
 
 const GooeyNav = ({
@@ -24,7 +24,8 @@ const GooeyNav = ({
   timeVariance = 300,
   colors = [1, 2, 3, 1, 2, 3, 1, 4],
   initialActiveIndex = 0,
-  onItemClick
+  onItemClick,
+  vertical = false
 }: GooeyNavProps) => {
   const containerRef = useRef(null);
   const navRef = useRef(null);
@@ -167,7 +168,7 @@ const GooeyNav = ({
   }, [activeIndex]);
 
   return (
-    <div className="gooey-nav-container" ref={containerRef}>
+    <div className={`gooey-nav-container ${vertical ? 'vertical' : ''}`} ref={containerRef}>
       <nav>
         <ul ref={navRef}>
           {items.map((item, index) => (

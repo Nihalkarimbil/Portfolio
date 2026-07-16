@@ -110,6 +110,7 @@ const Navbar = () => {
 										// Delay hiding the menu to allow the Gooey effect to play
 										setTimeout(() => setToggle(false), 800);
 									}}
+									vertical
 								/>
 							</div>
 							<li>
